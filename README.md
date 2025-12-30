@@ -54,15 +54,12 @@ The Mini User Management System is a web-based application designed to manage us
       npm start
 ### Frontend Setup
 
-   Navigate to frontend directory:
-      ```bash
+  #### Navigate to frontend directory:
       cd frontend
 
-   Install dependencies:
-        ```bash
+   #### Install dependencies:
         npm install
-   Start the frontend application:
-     ```bash
+   #### Start the frontend application:
         npm start
    Environment Variables
 
