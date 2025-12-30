@@ -1,10 +1,154 @@
-/* src/index.css */
-/* src/index.css */
-body { font-family: sans-serif; margin: 0; background: #f9f9f9; }
-form { display: flex; flex-direction: column; gap: 0.5rem; max-width: 300px; margin: 2rem auto; }
-input, button { padding: 0.5rem; }
-nav { background: #eee; padding: 1rem; display: flex; gap: 1rem; }
-.error { color: red; }
-.toast { color: green; }
+/* ===== Global ===== */
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+}
 
+/* ===== Forms (Login / Signup / Profile) ===== */
+form {
+  background: #fff;
+  max-width: 380px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+form h1 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+input {
+  padding: 0.6rem 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* ===== Buttons ===== */
+button {
+  padding: 0.6rem;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #1e4fd6;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* ===== Links ===== */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Errors & Toasts ===== */
+.error {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.toast {
+  background: #dcfce7;
+  color: #166534;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+/* ===== Admin Dashboard ===== */
+h1 {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+table {
+  width: 90%;
+  max-width: 1100px;
+  margin: 1rem auto;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background: #2563eb;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+tbody tr:hover {
+  background: #eef2ff;
+}
+
+td button {
+  margin-right: 0.4rem;
+  padding: 0.35rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+td button:nth-child(2) {
+  background: #dc2626;
+}
+
+td button:nth-child(2):hover {
+  background: #b91c1c;
+}
+
+/* ===== Pagination ===== */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+/* ===== Spinner ===== */
+.spinner {
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 500;
+}
