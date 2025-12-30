@@ -83,7 +83,7 @@ The Mini User Management System is a web-based application designed to manage us
 
 9. API Documentation
     Postman Collection
-     Postman Collection Link:
+     Postman Collection Link:https://arghyaban223-8128958.postman.co/workspace/Arghya-Bandyopadhyay's-Workspac~c512e97e-31d9-40f2-897c-509d524906a0/collection/51135226-ce967f06-ee1d-44ef-9e42-3e21f84317c6?action=share&source=copy-link&creator=51135226
 ## Author
 
-# Arghya Banerjee
+# Arghya Bandyopadhyay
