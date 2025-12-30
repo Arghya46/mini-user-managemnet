@@ -63,7 +63,7 @@ The Mini User Management System is a web-based application designed to manage us
         npm start
    Environment Variables
 
-   Create a .env file in the backend directory and define the following variables
+   #### Create a .env file in the backend directory and define the following variables
    PORT=5000
    MONGODB_URI=mongodb+srv://arghyabandyopadhyay59_db_user:hIlGLloDvaQXOW8f@cluster0.getyvy5.mongodb.net/?appName=Cluster0
    JWT_SECRET=fhdjhkhfgkjgdhdhfvhr6cgvhbjhg7tguhvjhvhchcfdfybvyyguytf
