@@ -46,13 +46,13 @@ The Mini User Management System is a web-based application designed to manage us
    ```bash
    cd backend
 
-4. Install dependencies:
+3. Install dependencies:
   ```bash
      npm install```
    
-6. Create a .env file (refer to Environment Variables section).
+4. Create a .env file (refer to Environment Variables section).
 
-7. Start the backend server:
+5. Start the backend server:
    ```bash
       npm start```
 
