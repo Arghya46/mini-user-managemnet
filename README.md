@@ -47,26 +47,27 @@ The Mini User Management System is a web-based application designed to manage us
    cd backend
 
 4. Install dependencies:
-  ```bash npm install
+  ```bash
+     npm install```
    
 6. Create a .env file (refer to Environment Variables section).
 
 7. Start the backend server:
    ```bash
-      npm start
+      npm start```
 
 ### Frontend Setup
 
    Navigate to frontend directory:
    ```bash
-      cd frontend
+      cd frontend```
 
    Install dependencies:
      ```bash
-        npm install
+        npm install```
    Start the frontend application:
      ```bash
-        npm start
+        npm start```
    Environment Variables
 
    Create a .env file in the backend directory and define the following variables
@@ -83,7 +84,7 @@ The Mini User Management System is a web-based application designed to manage us
 ### Frontend Deployment
    Build the frontend:
    ```bash
-      npm run build
+      npm run build```
    Deploy using:
      Vercel
    Update API base URL to point to the deployed backend.
