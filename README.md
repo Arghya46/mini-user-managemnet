@@ -48,7 +48,7 @@ The Mini User Management System is a web-based application designed to manage us
 
 3. Install dependencies:
   ```bash
-     npm install```
+     npm install
    
 4. Create a .env file (refer to Environment Variables section).
 
