@@ -39,15 +39,15 @@ The Mini User Management System is a web-based application designed to manage us
 ### Backend Setup
 
 1. Clone the repository:
-   ```bashgit clone https://github.com/Arghya46/mini-user-managemnet.git
+   ```bash
+   git clone https://github.com/Arghya46/mini-user-managemnet.git
 
 2. Navigate to backend directory:
    ```bash
    cd backend
 
 4. Install dependencies:
-  ```bash
-   npm install
+  ```bash npm install
    
 6. Create a .env file (refer to Environment Variables section).
 
